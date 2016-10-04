@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+
+body {
+  background-color: $body-bg-color;
+  font-size: 10px;
+  @include font('normal');
+  line-height: 1.5;
+}
+
+b, strong, .bold {
+  @include font('bold');
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "wp-gulp-theme",
+  "version": "1.0.0",
+  "description": "WP Gulp Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-cache": "~0.1.11",
+    "gulp-concat": "~2.3.4",
+    "gulp-connect": "~1.0.0",
+    "gulp-csscomb": "~0.1.0",
+    "gulp-cssmin": "~0.1.6",
+    "gulp-imagemin": "~0.5.0",
+    "gulp-import-css": "git://github.com/yuguo/gulp-import-css.git",
+    "gulp-jshint": "~1.6.1",
+    "gulp-load-plugins": "~0.5.1",
+    "gulp-raster": "0.0.3",
+    "gulp-rename": "~1.2.0",
+    "gulp-replace": "~0.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "~0.3.1",
+    "gulp-uglify": "~0.3.1",
+    "gulp-util": "^3.0.7",
+    "wiredep": "~1.8.2"
+  }
+}

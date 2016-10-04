@@ -1,0 +1,21 @@
+{
+  "name": "wp-gulp-theme",
+  "version": "1.0.0",
+  "authors": [
+    "Felix Gliesche <felix@gliesche.net>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~3.3.1",
+    "bootstrap-sass-official": "~3.3.4",
+    "normalize-css": "normalize.css#~4.0.0",
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6"
+  }
+}
