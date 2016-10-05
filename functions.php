@@ -38,3 +38,10 @@ function flix_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'flix_scripts' );
+
+// register styles
+function flix_styles() {
+  wp_register_style( 'flix-styles',  get_template_directory_uri().'/assets/styles/styles.min.css', array(), filemtime( get_template_directory().'/assets/styles/styles.min.css' ));
+  wp_enqueue_style('flix-styles');
+}
+add_action( 'wp_enqueue_scripts', 'flix_styles' );
